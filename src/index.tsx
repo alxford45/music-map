@@ -1,20 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Amplify from "@aws-amplify/core";
 import ApolloClient from "apollo-boost";
 import { ApolloProvider } from "@apollo/react-hooks";
 
-import config from "./aws-exports";
 import App from "./App";
 
-Amplify.configure(config);
 
 const client = new ApolloClient({
     uri:
-        config.aws_appsync_graphqlEndpoint,
+        "https://g33nmiwnmnagnawqqw54sqvgl4.appsync-api.us-east-2.amazonaws.com/graphql",
     headers: {
-        "X-Api-Key": config.aws_appsync_apiKey
+        "X-Api-Key": "da2-4huensyzjndbnk5hnm5ebol23u"
     }
 });
 
