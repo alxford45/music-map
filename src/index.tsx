@@ -1,10 +1,26 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import Amplify from "@aws-amplify/core";
+import ApolloClient from "apollo-boost";
+import { ApolloProvider } from "@apollo/react-hooks";
 
-ReactDOM.render(<App />, document.getElementById('root'));
+import config from "./aws-exports";
+import App from "./App";
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
+Amplify.configure(config);
+
+const client = new ApolloClient({
+    uri:
+        config.aws_appsync_graphqlEndpoint,
+    headers: {
+        "X-Api-Key": config.aws_appsync_apiKey
+    }
+});
+
+ReactDOM.render(
+    <ApolloProvider client={client}>
+        <App />
+    </ApolloProvider>,
+    document.getElementById("root") as HTMLElement
+);
