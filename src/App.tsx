@@ -1,8 +1,16 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-
+import { useQuery } from '@apollo/react-hooks';
+import { listBlogs } from "./graphql/queries";
+import { gql } from 'apollo-boost';
+import { ListBlogsQuery } from "./API";
 const App = () => {
+  const { loading, data, networkStatus } = useQuery<ListBlogsQuery>(gql`${listBlogs}`);
+  if (loading) {
+    return <div>loading.....</div>
+  }
+  console.log(networkStatus);
   return (
     <div className="App">
       <header className="App-header">
@@ -19,6 +27,10 @@ const App = () => {
           Learn React
         </a>
       </header>
+      <div>
+        {data?.listBlogs?.items}
+      </div>
+
     </div>
   );
 }
