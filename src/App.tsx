@@ -5,7 +5,8 @@ import { useQuery } from '@apollo/react-hooks';
 import { listBlogs } from "./graphql/queries";
 import { gql } from 'apollo-boost';
 import { ListBlogsQuery } from "./API";
-const App = () => {
+
+const App: React.FC = () => {
   const { loading, data, networkStatus } = useQuery<ListBlogsQuery>(gql`${listBlogs}`);
   if (loading) {
     return <div>loading.....</div>
