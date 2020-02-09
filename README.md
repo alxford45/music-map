@@ -1,3 +1,7 @@
+[![Build Status](https://travis-ci.org/alxford45/music-map.svg?branch=master)](https://travis-ci.org/alxford45/music-map)
+[![Coverage Status](https://coveralls.io/repos/github/alxford45/music-map/badge.svg?branch=master)](https://coveralls.io/github/alxford45/music-map?branch=master)
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
