@@ -6,11 +6,7 @@ frontend:
         - npm ci
     build:
       commands:
-        - npm run coverage
         - npm run build
-    postbuild:
-      commands:
-        - COVERALLS_REPO_TOKEN=$coveralls_repo_token npm run coveralls
   artifacts:
     baseDirectory: build
     files:
