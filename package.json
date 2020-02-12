@@ -1,0 +1,20 @@
+{
+  "name": "music-map",
+  "version": "1.0.0",
+  "description": "[![Build Status](https://travis-ci.org/alxford45/music-map.svg?branch=master)](https://travis-ci.org/alxford45/music-map) [![Coverage Status](https://coveralls.io/repos/github/alxford45/music-map/badge.svg?branch=master)](https://coveralls.io/github/alxford45/music-map?branch=master)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alxford45/music-map.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alxford45/music-map/issues"
+  },
+  "homepage": "https://github.com/alxford45/music-map#readme"
+}
