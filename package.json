@@ -2,10 +2,9 @@
   "name": "music-map",
   "version": "1.0.0",
   "description": "[![Build Status](https://travis-ci.org/alxford45/music-map.svg?branch=master)](https://travis-ci.org/alxford45/music-map) [![Coverage Status](https://coveralls.io/repos/github/alxford45/music-map/badge.svg?branch=master)](https://coveralls.io/github/alxford45/music-map?branch=master)",
-  "main": "./src/index.tsx",
   "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "webpack --display verbose --config webpack.config.prod.js"
   },
   "repository": {
     "type": "git",
