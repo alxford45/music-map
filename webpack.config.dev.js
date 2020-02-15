@@ -1,6 +1,8 @@
 /*
 TODO:
 - implement dev server
+- add css loaders
+- encapsulate shared config props to new file
 */
 const path = require("path");
 const htmlWebpackPlugin = require("html-webpack-plugin");

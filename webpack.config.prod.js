@@ -3,6 +3,8 @@ TODO:
 - optimize bundling
 - hash filenames
 - expose public assets to dist
+- add css loaders
+- encapsulate shared config props to new file
 */
 const path = require("path");
 const htmlWebpackPlugin = require("html-webpack-plugin");
