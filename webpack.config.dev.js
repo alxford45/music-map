@@ -27,6 +27,12 @@ module.exports = {
   resolve: {
     extensions: [".ts", ".tsx", ".js", ".jsx"]
   },
+  devServer: {
+    host: "localhost",
+    port: 8080,
+    hot: false
+  },
+
   target: "web",
   plugins: [
     new htmlWebpackPlugin({
