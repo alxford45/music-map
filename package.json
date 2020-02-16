@@ -4,7 +4,8 @@
   "description": "[![Build Status](https://travis-ci.org/alxford45/music-map.svg?branch=master)](https://travis-ci.org/alxford45/music-map) [![Coverage Status](https://coveralls.io/repos/github/alxford45/music-map/badge.svg?branch=master)](https://coveralls.io/github/alxford45/music-map?branch=master)",
   "private": true,
   "scripts": {
-    "build": "webpack --display verbose --config webpack.config.prod.js"
+    "build": "webpack --display verbose --config webpack.config.prod.js",
+    "start": "webpack-dev-server --config webpack.config.dev.js"
   },
   "repository": {
     "type": "git",
