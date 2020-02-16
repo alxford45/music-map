@@ -5,7 +5,7 @@ import Grid from "@material-ui/core/Grid";
 import { makeStyles } from "@material-ui/core/styles";
 
 import { SignIn } from "../components/forms/SignIn";
-import { SignUp } from "src/components/forms/SignUp";
+import { SignUp } from "../components/forms/SignUp";
 //https://github.com/mui-org/material-ui/tree/master/docs/src/pages/getting-started/templates/sign-in-side
 
 const useStyles = makeStyles(theme => ({
