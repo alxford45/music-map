@@ -19,6 +19,8 @@
   },
   "homepage": "https://github.com/alxford45/music-map#readme",
   "dependencies": {
+    "@material-ui/core": "^4.9.3",
+    "@material-ui/icons": "^4.9.1",
     "html-webpack-plugin": "^3.2.0",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
