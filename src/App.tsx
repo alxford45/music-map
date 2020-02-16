@@ -1,10 +1,10 @@
 import React from "react";
 // import './App.css';
 
-// import { Home } from "./pages/Home";
+import { Home } from "./pages/Home";
 
 const App: React.FC = () => {
-  return <div className="App">"hello world"</div>;
+  return <Home />;
 };
 
 export default App;
