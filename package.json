@@ -6,7 +6,8 @@
   "scripts": {
     "build": "webpack --display verbose --config webpack.config.prod.js",
     "start": "webpack-dev-server --config webpack.config.dev.js",
-    "test": "jest"
+    "test": "jest",
+    "coveralls": "cat ./coverage/lcov.info | node node_modules/.bin/coveralls"
   },
   "repository": {
     "type": "git",
