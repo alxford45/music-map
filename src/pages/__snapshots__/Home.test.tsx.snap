@@ -1,0 +1,208 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home Component renders without error 1`] = `
+<div>
+  <main
+    class="MuiGrid-root makeStyles-root-1 MuiGrid-container"
+  >
+    <div
+      class="MuiGrid-root makeStyles-image-2 MuiGrid-item MuiGrid-grid-sm-4 MuiGrid-grid-md-7"
+    />
+    <div
+      class="MuiPaper-root MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-8 MuiGrid-grid-md-5 MuiPaper-elevation6"
+    >
+      <div
+        class="makeStyles-paper-3"
+      >
+        <div
+          class="makeStyles-paper-138"
+        >
+          <div
+            class="MuiAvatar-root MuiAvatar-circle makeStyles-avatar-137 MuiAvatar-colorDefault"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root"
+              focusable="false"
+              role="presentation"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M18 8h-1V6c0-2.76-2.24-5-5-5S7 3.24 7 6v2H6c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V10c0-1.1-.9-2-2-2zM9 6c0-1.66 1.34-3 3-3s3 1.34 3 3v2H9V6zm9 14H6V10h12v10zm-6-3c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2z"
+              />
+            </svg>
+          </div>
+          <h1
+            class="MuiTypography-root MuiTypography-h5"
+          >
+            Sign in
+          </h1>
+          <form
+            class="makeStyles-form-135"
+            novalidate=""
+          >
+            <div
+              class="MuiFormControl-root MuiTextField-root MuiFormControl-marginNormal MuiFormControl-fullWidth"
+            >
+              <label
+                class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined Mui-focused Mui-focused Mui-required Mui-required"
+                data-shrink="true"
+                for="email"
+                id="email-label"
+              >
+                Email Address
+                <span
+                  class="MuiFormLabel-asterisk MuiInputLabel-asterisk"
+                >
+                   
+                  *
+                </span>
+              </label>
+              <div
+                class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-fullWidth Mui-focused Mui-focused MuiInputBase-formControl"
+              >
+                <input
+                  aria-invalid="false"
+                  autocomplete="email"
+                  class="MuiInputBase-input MuiOutlinedInput-input"
+                  id="email"
+                  name="email"
+                  required=""
+                  type="text"
+                  value=""
+                />
+                <fieldset
+                  aria-hidden="true"
+                  class="PrivateNotchedOutline-root-243 MuiOutlinedInput-notchedOutline"
+                >
+                  <legend
+                    class="PrivateNotchedOutline-legendLabelled-245 PrivateNotchedOutline-legendNotched-246"
+                  >
+                    <span>
+                      Email Address
+                       *
+                    </span>
+                  </legend>
+                </fieldset>
+              </div>
+            </div>
+            <div
+              class="MuiFormControl-root MuiTextField-root MuiFormControl-marginNormal MuiFormControl-fullWidth"
+            >
+              <label
+                class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined Mui-required Mui-required"
+                data-shrink="false"
+                for="password"
+                id="password-label"
+              >
+                Password
+                <span
+                  class="MuiFormLabel-asterisk MuiInputLabel-asterisk"
+                >
+                   
+                  *
+                </span>
+              </label>
+              <div
+                class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-fullWidth MuiInputBase-formControl"
+              >
+                <input
+                  aria-invalid="false"
+                  autocomplete="current-password"
+                  class="MuiInputBase-input MuiOutlinedInput-input"
+                  id="password"
+                  name="password"
+                  required=""
+                  type="password"
+                  value=""
+                />
+                <fieldset
+                  aria-hidden="true"
+                  class="PrivateNotchedOutline-root-243 MuiOutlinedInput-notchedOutline"
+                >
+                  <legend
+                    class="PrivateNotchedOutline-legendLabelled-245"
+                  >
+                    <span>
+                      Password
+                       *
+                    </span>
+                  </legend>
+                </fieldset>
+              </div>
+            </div>
+            <label
+              class="MuiFormControlLabel-root"
+            >
+              <span
+                aria-disabled="false"
+                class="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-259 MuiCheckbox-root MuiCheckbox-colorPrimary MuiIconButton-colorPrimary"
+              >
+                <span
+                  class="MuiIconButton-label"
+                >
+                  <input
+                    class="PrivateSwitchBase-input-262"
+                    data-indeterminate="false"
+                    type="checkbox"
+                    value="remember"
+                  />
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root"
+                    focusable="false"
+                    role="presentation"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"
+                    />
+                  </svg>
+                </span>
+                <span
+                  class="MuiTouchRipple-root"
+                />
+              </span>
+              <span
+                class="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
+              >
+                Remember me
+              </span>
+            </label>
+            <button
+              class="MuiButtonBase-root MuiButton-root MuiButton-contained makeStyles-submit-136 MuiButton-containedPrimary MuiButton-fullWidth"
+              tabindex="0"
+              type="submit"
+            >
+              <span
+                class="MuiButton-label"
+              >
+                Sign In
+              </span>
+              <span
+                class="MuiTouchRipple-root"
+              />
+            </button>
+            <div
+              class="MuiGrid-root MuiGrid-container"
+            >
+              <div
+                class="MuiGrid-root MuiGrid-item"
+              >
+                <a
+                  class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-body2 MuiTypography-colorPrimary"
+                >
+                  Don't have an account? Sign Up
+                </a>
+              </div>
+            </div>
+            <div
+              class="MuiBox-root MuiBox-root-311"
+            />
+          </form>
+        </div>
+      </div>
+    </div>
+  </main>
+</div>
+`;
