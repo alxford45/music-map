@@ -1,10 +1,10 @@
 import React from "react";
-import App from "./App";
 import { render } from "@testing-library/react";
+import { Home } from "./Home";
 
-test("App Component", () => {
+test("Home Component", () => {
   it("renders without error", () => {
-    const { container } = render(<App />);
+    const { container } = render(<Home />);
     expect(container).toMatchSnapshot();
   });
 });
